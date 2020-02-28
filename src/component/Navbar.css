@@ -1,5 +1,6 @@
 .button-nav {
   color: white;
+  font-family: "Arbutus Slab", serif;
   font-weight: bold;
   background: linear-gradient(
     to bottom,
@@ -32,6 +33,7 @@
 
 .logo-text-nav {
   color: white;
+  font-family: "Arbutus Slab", serif;
   font-weight: bold;
 }
 

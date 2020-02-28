@@ -10,16 +10,16 @@ const { Header, Footer, Content } = Layout;
 function App() {
   return (
     <div>
-      <Layout>
+      <Layout className="layout">
         <Header className="header">
           <Navbar />
         </Header>
 
-        <Content>
+        <Content className="content">
           <MyContent />
         </Content>
 
-        <Footer>
+        <Footer className="footer">
           <MyFooter />
         </Footer>
       </Layout>

@@ -1,0 +1,112 @@
+.pic-content {
+  width: 90%;
+  margin: 3% 3%;
+  opacity: 0.6;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  display: none;
+  font-family: "Arbutus Slab", serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-welcome {
+  text-align: center;
+  font-family: "Arbutus Slab", serif;
+  color: black;
+}
+
+.text-name {
+  font-weight: bold;
+  font-size: 3vw;
+  margin: 0;
+}
+
+.text-develop {
+  font-size: 1.5vw;
+}
+
+.button-port {
+  color: white;
+  font-weight: bold;
+  width: 100px;
+  background-color: #f39428;
+  border-color: #f39428;
+}
+
+.button-port:focus {
+  color: white;
+  width: 100px;
+  background-color: #f39428;
+  border-color: #f39428;
+}
+
+.button-port:hover {
+  color: white;
+  width: 100px;
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.text-name-pic {
+  font-weight: bold;
+  font-size: 3.4vw;
+  text-shadow: 2px 2px rgb(0, 0, 0);
+  margin: 0;
+}
+
+.text-develop-pic {
+  font-size: 2vw;
+  text-shadow: 1px 1px rgb(0, 0, 0);
+}
+
+.button-port-pic {
+  color: white;
+  font-weight: bold;
+  width: 100px;
+  background-color: #f39428;
+  border-color: #f39428;
+}
+
+.button-port-pic:focus {
+  color: white;
+  width: 100px;
+  background-color: #f39428;
+  border-color: #f39428;
+}
+
+.button-port-pic:hover {
+  color: white;
+  width: 100px;
+  background-color: #000000;
+  border-color: #000000;
+}
+@media only screen and (max-width: 900px) {
+  .text-welcome {
+    display: none;
+  }
+  .text-name {
+    display: none;
+  }
+  .text-develop {
+    display: none;
+  }
+  .centered {
+    display: inline;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .centered {
+    display: inline;
+  }
+}
