@@ -1,0 +1,80 @@
+.contact-div {
+  margin: 8% 3%;
+}
+
+.text-contact {
+  font-family: "Arbutus Slab", serif;
+  color: black;
+  margin: 0;
+}
+
+.input-contact {
+  font-family: "Arbutus Slab", serif;
+  font-size: 20px;
+  width: 80%;
+  margin: 3% 0;
+  border: none;
+  border-bottom: 2px solid #c5c5c5;
+}
+.input-contact:focus {
+  border: none;
+  border-bottom: 2px solid #c5c5c5;
+}
+
+.input-contact:hover {
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.input-full-contact {
+  font-family: "Arbutus Slab", serif;
+  font-size: 20px;
+  width: 1220px;
+  margin: 3% 0;
+  border: none;
+  border-bottom: 2px solid #c5c5c5;
+}
+
+.input-full-contact:focus {
+  border: none;
+  border-bottom: 2px solid #c5c5c5;
+}
+
+.input-full-contact:hover {
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.button-send {
+  margin: 5% 0;
+  color: white;
+  width: 200px;
+  border: none;
+  font-family: "Arbutus Slab", serif;
+  font-weight: bold;
+  background-color: #f39428;
+}
+
+.button-send:focus {
+  color: white;
+  border: none;
+  font-family: "Arbutus Slab", serif;
+  font-weight: bold;
+  background-color: #f39428;
+}
+
+.button-send:hover {
+  color: white;
+  border: none;
+  font-family: "Arbutus Slab", serif;
+  font-weight: bold;
+  background-color: #000000;
+}
+
+@media only screen and (max-width: 780px) {
+  .input-full-contact {
+    margin: 3% 9%;
+    border: none;
+    border-bottom: 2px solid #c5c5c5;
+  }
+}

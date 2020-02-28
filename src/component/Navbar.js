@@ -45,7 +45,7 @@ export default class Navbar extends Component {
             <Row type="flex" justify="end">
               <Col md={5} lg={5} xl={4} className="col-button-nav">
                 <Button type="link" className="button-nav">
-                  MY PROJECT
+                  MY PROJECTS
                 </Button>
               </Col>
               <Col md={5} lg={5} xl={4}>
